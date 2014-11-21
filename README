@@ -1,3 +1,26 @@
+##综合课程设计小组 working source code
+
+这里有鸟叔和川川还有我，加油。
+
+请相关人员把 rsa public key 发给我
+
+在终端运行命令：
+
+```
+#ssh-keygen
+```
+
+依照步骤最终生成RSA key （一路回车就行了）
+
+在用户文件夹下（类unix系统在 ~/.ssh/ 中，Windows 在用户文件夹/.ssh/ ）找到 rsa_key.pub 文件，发给我
+
+
+###使用指南
+
+
+
+<hr>
+
 This is the buildsystem for the OpenWrt Linux distribution.
 
 Please use "make menuconfig" to configure your appreciated

@@ -10,13 +10,52 @@
 #ssh-keygen
 ```
 
-依照步骤最终生成RSA key （一路回车就行了）
+依照步骤最终生成 RSA key （一路回车就行了）
 
 在用户文件夹下（类unix系统在 ~/.ssh/ 中，Windows 在用户文件夹/.ssh/ ）找到 rsa_key.pub 文件，发给我
 
 
 ###使用指南
 
+1.将代码 clone 到本地：
+
+```
+#git clone git@github.com:paincompiler/openwrt-custom.git
+```
+
+2.切换到自己的工作分支（以鸟叔为例）：
+
+```
+#git checkout dev-btboy
+```
+
+3.改改改！更改后的文件存储更改：
+
+```
+#git add xxxx.h
+```
+
+4.确认更改完毕后（尽量做了一次更改就提交一次），提交 commit ：
+
+```
+#git commit -m 'xxxx.h modified'
+
+ps: -m 参数后面跟更改说明
+```
+
+5.同步到远端代码库：
+
+```
+#git push origin dev-btboy
+```
+
+###注意事项
+
+1.切勿切换到别人的分支和 master 分支进行修改，只在自己的分支工作
+
+2.及时保存和提交自己的更改
+
+3.有任何阶段性的成果，一起确认没有问题可以工作后，请在仓库页面提交 pull request 申请合并到 master 分支
 
 
 <hr>
